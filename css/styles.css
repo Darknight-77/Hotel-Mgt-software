@@ -1,0 +1,848 @@
+body{
+    background-color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.navigationbar{
+    position: fixed;
+    width:100%;
+    text-align: center;
+    background-color:white;
+    height: 85px;
+    z-index: 5;
+}
+.navigationimage{
+    position: static;
+    width: 15%;
+    display: inline-table;
+    text-align: left;
+    margin-top: 10px;
+
+}
+
+.navigationmenu{
+    position: static;
+    width: 65%;
+    display: inline-table;
+
+}
+.menus{
+    position: static;
+    display: inline-table;
+    margin:10px;
+    padding: 5px;
+    
+}
+.navigationmenu a{
+    text-decoration: none;
+    color: black;
+}
+.navigationmenu a :hover{
+    border-bottom: 4px solid red;
+    
+}
+.sectiona{
+    position:static;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.sectiona img{
+    width: 100%;
+}
+
+
+.bookingsholder{
+    position: absolute;
+    width: 30%;
+    margin-top: 150px;
+    margin-left: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-left: 5px solid red;
+}
+.bookings{
+    margin: 30px;
+}
+.item{
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+.time{
+    width: 100%;
+    height: 25px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+}
+.bookingsholder input[type=submit]{
+    width: 20%;
+    background-color: red;
+    border: 0px red;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    height: 30px;
+    color: white;
+    cursor:pointer;
+    font-size: 12px;
+}
+
+.sectionb{
+    position: static;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+.sectionb img{
+    width: 100%;
+}
+
+.blog{
+    position: absolute;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+.our{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:30px;
+}
+
+.triplet{
+    width: 80%;
+    position: absolute;
+    display:flex;
+    flex-direction: row; 
+    justify-content: center;
+    margin: 150px 0px 0px 100px;
+}
+.blogholder{
+    width: 27%;
+    margin-left:10px;
+}
+.bimage{
+    width: 100%;
+    overflow: hidden;
+}
+
+.bimage img:hover{
+    transform: scale(2.2);
+    transition-duration: 5s;
+}
+.bwrite{
+    background-color: white;
+    margin-top: -25px;
+    padding: 15px;
+    max-height: 145px;
+}
+
+.bwrite h4{
+  width: 100%;
+  font-weight: bold;
+  font-size: 17px;
+  text-transform: capitalize;
+}
+
+.bwrite p{
+    width: 100%;
+    font-size: 13px;
+    text-transform: capitalize;
+}
+
+.p{
+    color: red;
+    margin-top: -18px;
+    font-weight: bold;
+}
+article a{
+    text-decoration:underline;
+    color: black;
+
+}
+
+.tdholderone{
+    width: 90%;
+    margin: 20px auto;
+    padding: 0%;
+    overflow: hidden;
+}
+.tdholderone img{
+    width: 100%;
+    height: 350px;
+    border-radius: 13px;
+}
+.tdholderone img:hover{
+    transform:scale(2.2);
+    transition: 5s;
+}
+.sectionc{
+    position: static;
+    width: 90%;
+    display: flex;
+    padding: 0%;
+    margin: 20px auto;
+    justify-content: space-between;
+    
+}
+
+.sectionc img{
+    width: 100%;
+    border-radius: 13px;
+}
+.sectionc img:hover{
+    transform: scale(2.1);
+    transition: 5s;
+    
+}
+.tdholdertwo{
+    width: 48%;
+    overflow: hidden;
+}
+.tdholderthree{
+    width: 48%;
+    overflow: hidden;
+}
+
+.hugetext{
+    position: absolute;
+    font-weight: bold;
+    color: white;
+    margin-top: 40px;
+    margin-left: 15px ;
+    font-size: 1.8rem;
+    text-shadow: 1px 2px 7px black;
+}
+.smalltext{
+    position: absolute;
+    font-weight: bold;
+    color: white;
+    margin-top: 75px;
+    margin-left: 15px;
+    font-size: small;
+    text-shadow: 1px 2px 7px black;
+}
+.hugetext2{
+    position: absolute;
+    font-weight: bold;
+    color: white;
+    margin-top: 20px;
+    margin-left: 15px ;
+    font-size: 1.5rem;
+    text-shadow: 1px 2px 7px black;
+}
+.smalltext2{
+    position: absolute;
+    font-weight: bold;
+    color: white;
+    margin-top: 55px;
+    margin-left: 15px;
+    font-size: small;
+    text-shadow: 1px 2px 7px black;
+}
+.trending{
+    width: 100%;
+    position: static;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.7rem;
+    text-decoration: underline red 3px;
+}
+
+.sectiond{
+    background-color:rgb(220, 220, 225);
+    margin: 0%;
+    padding: 0%;
+    position: static;
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+
+.top6{
+    width: 100%;
+    text-align: center;
+}
+
+.no-line{
+    text-decoration: none;
+    margin-bottom: 0;
+    
+}
+
+.topbest{
+    width: 30%;
+    background-color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.topbest img{
+    width: 100%;
+}
+.top6-holder{
+    width: 80%;
+    position: static;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    
+}
+.bold{
+    font-weight: bold;
+}
+.price-edit{
+    background-color: rgb(88, 174, 227);
+    color: white;
+    width: 50%;
+    margin: auto;
+    font-size: small;
+    padding: 1%;
+    border-radius: 10px;
+    margin-top: 0;
+}
+.topbest a{
+    color: black;
+}
+.lighter{
+    opacity: 0.6;
+}
+
+footer{
+    width: 100%;
+    position: static;
+    background-color: black;   
+    border-bottom: 1px solid red; 
+    padding-bottom: 10px;
+}
+
+.foot1{
+    width: 25%;
+    display: inline-table;
+    padding: 0;
+    margin: 30px;
+}
+
+.infos-head{
+    font-weight: bold;
+    color: white;
+    text-decoration: 2px underline rgb(88, 174, 227);
+    border: none;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.foot1 a, .foot1 p{
+    text-decoration: none;
+    color: white;
+
+}
+.socialtext{
+    color: white;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 15px;
+    
+}
+.socials{
+    width: 90%;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.socialicon{
+    width: 5%;
+    height: 25px;
+    color: white;
+    display: inline-table;
+}
+.socialicon i{
+    font-size: 25px;
+    color: greenyellow;
+}
+
+.infos{
+    margin: 5px;
+}
+
+.foot1 input[type="email"]{
+    width: 100%;
+    margin: 5px 0px 10px 0px;
+    border: none;
+    height: 37px;
+    font-size: 15px;
+    padding-left: 12px;
+}
+
+.foot1 input[type="submit"]{
+    color: rgb(88, 174, 227);
+    height: 37px;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.infos i{
+    margin-right: 12px;
+}
+
+.footerr{
+    width: 100%;
+    position: static;
+    background-color: rgb(0, 0, 57);
+}
+.end{
+    text-align: center;
+}
+.allright{
+    font-size: small;
+    color:rgb(88, 174, 227) ;
+
+}
+.design{
+    font-size: small;
+    color: rgb(152, 69, 34);
+}
+
+
+.mobile-navigationbar{
+    display: none;
+}
+.pair{
+    display: inline-table;
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 971px){
+    .menus{
+        margin: 5px;
+    }
+    .bookingsholder{
+        margin-top: 105px;
+        margin-left: 50px;
+    }
+    .bookingsholder input[type="submit"]{
+        width: 28%;
+        border-radius: 15px;
+    }
+    .our{
+        margin-bottom: 0;
+    }
+    .stay{
+        margin-top: 2px;
+        margin-bottom: 0;
+    }
+    .triplet{
+        
+        width: 90%;
+        margin: 100px 0px 0px 50px;
+    }
+    .blogholder{
+        width: 31%;
+    }
+
+    .hugetext{
+        margin-top: 10px ;
+        font-size: 25px;
+    }
+    .smalltext{
+        margin-top: 40px;
+        font-size: 12px;
+    }
+    .hugetext2{
+        margin-top: 10px;
+        font-size: 17px;
+    }
+    .smalltext2{
+        margin-top: 30px;
+        font-size: 11px;
+    }
+    .foot1{
+        width: 20% ;
+    }
+    .bwrite h4{
+        width: 100%;
+        font-weight: bold;
+        font-size: 8px;
+        text-transform: capitalize;
+    
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 429px){
+  body{
+    position:static;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Tahoma, sans-serif;
+  }
+  .navigationbar{
+    display: none;
+  }
+
+  .mobile-navigationbar{
+    width: 100%;
+    position: static;
+    display: flex;
+    background-color: rgb(161, 48, 48);
+    height: 50px;
+    z-index: 5;
+  }
+
+  .mobile-navigationimage{
+    width: 20%;
+    position: static;
+  }
+  .mobile-navigationimage img{
+    width: 100%;
+    padding: 10px;
+  }
+
+  .openmenu{
+    position: static;
+    width: 5%;
+    text-align: right;
+    cursor: pointer;
+    padding: 15px;
+    margin-left: 287px;
+    background-color: violet;
+  }
+
+  .openmenu img{
+    width: 100%;
+  }
+
+  .closemenu img{
+    width: 10%;
+    cursor: pointer;
+  }
+
+  .closemenu{
+    padding-right: 9px;
+  }
+
+  .menuarea{
+    width: 90%;
+    position: absolute;
+    text-align: right;
+    background-color: white;
+    margin-top: -4px;
+    opacity: 0.95;
+    display: none;
+    
+  }
+
+  .menuarea a{
+    color: black;
+  }
+
+  .menus{
+    width: 50%;
+    position: static;
+    border: none;
+    margin: 5px;
+    font-family: sans-serif;
+    margin-right: 20px;
+    padding: 5px;
+  }
+
+  .sectiona{
+    padding-top: 51px;
+    width: 100%;
+    font-size: 9px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .bookingsholder{
+    width: 60%;
+    margin: 3px 0 0 10px;
+    height: 180px;
+    max-height: 180px;
+  }
+  .bookings{
+    margin: 15px;
+  }
+  .item{
+    font-weight: bold;
+  }
+  .bookingholder > input[type=submit]{
+    width: 10%;
+    height: 20px;
+  }
+  
+  .sectionb{
+    width: 100%;
+    position: static;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .our{
+    font-size: 18px;
+  }
+  .triplet{
+    width: 80%;
+    position: absolute;
+    display:flex;
+    flex-direction: row; 
+    justify-content: center;
+    margin: 70px 0px 0px 30px;
+  }
+
+  .bwrite p{
+    position: static;
+    width: 100%;
+    font-size: 5px;
+    text-transform: capitalize;
+  }
+
+  .bwrite{
+    position: static;
+  }
+  .p{
+    color: red;
+    position: static;
+    margin-top: -10px;
+    font-weight: bold;
+  }
+
+  .trending{
+    width: 100%;
+    position: static;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: underline red 3px;
+  }
+
+  
+
+  .tdholderone{
+    width: 90%;
+    position: static;
+    margin:  auto;
+    height: 150px;
+    
+  }
+  .tdholderone img{
+    width: 100%;
+  }
+  .hugetext{
+    font-size: 12px;
+  }
+
+  .smalltext{
+    font-size: 9px;
+    margin-top: 25px;
+  }
+  .hugetext2{
+    font-size: 9px;
+    margin-left: 3px;
+  }
+  .smalltext2{
+    font-size: 8px;
+    margin-top: 25px;
+    margin-left: 3px;
+  }
+
+  .top6 > .no-line{
+    text-decoration: none;
+  }
+
+  .subhead{
+    width: 65%;
+    position: static;
+    margin: auto;
+    font-size: 13px;
+  }
+
+  .sectiond{
+    padding-top: 0px;
+    width: 100%;
+  }
+
+  .top6-holder{
+    width: 95%;
+    position: static;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 10px;
+  }
+
+  .topbest{
+    font-size: 10px;
+  }
+
+  .price-edit{
+    width: 75%;
+    font-size: 9px;
+    padding: 3px;
+  }
+
+  footer{
+    position: static;
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .foot1{
+    width: 50%;
+    display: inline-table;
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+
+  .infos-head{
+    font-size: 14px;
+    font-weight: lighter;
+    margin-bottom:0 ;
+  }
+
+  .pair{
+    width: 100%;
+    display: flex;
+  }
+  .foot1 input[type="email"]{
+    width: 50%;
+  }
+  .foot2{
+    width: 100%;
+  }
+
+  .foot1 input[type="submit"]{
+    background-color: cadetblue;
+    color: white;
+  }
+
+  .socials{
+    position: static;
+    width: 90%;
+    margin-left: 20px;
+    text-align: center;
+  }
+  
+  .socialicon{
+    width: 5%;
+    height: 25px;
+    color: white;
+    display: inline-table;
+  }
+  
+  .socialicon i{
+    font-size: 25px;
+    color: greenyellow;
+  }
+  .socialtext{
+    color: white;
+    border: none;
+    font-size: 11px;
+    margin-bottom: 12px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 702){
+
+}

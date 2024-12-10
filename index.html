@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/346f40ffbc.js" crossorigin="anonymous"></script>
+
+    <title>New Project Work</title>
+</head>
+<body>
+        
+    </body>
+    </html>
+    <!----------NAVIGATION BAR STARTS HERE-->
+
+    <div class="navigationbar">
+        <div class="navigationimage">
+            <img src="images/IMG-20240812-WA0243.jpg">
+        </div>
+
+        <div class="navigationmenu">
+            <a href="#"><div class="menus">HOME</div></a>
+            <a href="#"><div class="menus">HOTELS</div></a>
+            <a href="#"><div class="menus">CATERING</div></a>
+            <a href="#"><div class="menus">BLOG</div></a>
+            <a href="#"><div class="menus">CONTACT US</div></a>
+        </div>
+    </div>
+
+
+    <div class="mobile-navigationbar">
+        <div class="mobile-navigationimage">
+            <img src="images/IMG-20240812-WA0243.jpg">
+        </div>
+
+        <div class="openmenu" id="openmenu" onclick=switchmenu()><img src="icons/menu_icon.png"></div>
+        
+
+        <div class="menuarea" id="menu-area">
+
+            <div class="closemenu" id="closemenu" onclick=switchmenuoff()><img src="icons/close_icon.png"></div>
+    
+            
+            <a href="#"><div class="menus">HOME</div></a>
+            <a href="#"><div class="menus">HOTELS</div></a>
+            <a href="#"><div class="menus">CATERING</div></a>
+            <a href="#"><div class="menus">BLOG</div></a>
+            <a href="#"><div class="menus">CONTACT US</div></a>
+    
+        </div>
+        
+    </div>
+
+    
+
+
+<script>
+    function switchmenu(){
+        const menuarea = document.querySelector('.menuarea')
+        menuarea.style.display = 'block'
+        openmenu.style.display = 'none'
+    }
+    function switchmenuoff(){
+        const menuarea = document.querySelector('.menuarea')
+        menuarea.style.display = 'none'
+        openmenu.style.display = 'inline-table'
+    }
+</script>
+
+
+
+
+
+
+    <!----------NAVIGATION BAR ENDS HERE-->
+
+    <!---------THE BODY-->
+    <div class="sectiona">
+        <div class="bookingsholder">
+            <form action="#" method="post" enctype="text/plain">
+                <h3>WELCOME TO ENUGU</h3>
+
+                <div class="bookings">
+                    <label class="item" for="arrival">Arrival</label>
+                    <input type="date" id="arrival" class="time" required>
+                </div>
+    
+                <div class="bookings">
+                    <label class="item" for="depature">Depature</label>
+                    <input type="date" id="depature" class="time" required>
+                </div>
+    
+                <input type="submit" value="Book Now">
+
+            </form>
+
+        </div>
+        <img src="images/banner1.jpg">
+    </div>
+
+    <div class="sectionb">
+        <div class="blog">
+            <h2 class="our">OUR BLOG</h2>
+            <p class="stay">Stay updated with our trending news & updates</p>
+        </div>
+
+        <div class="triplet">
+            <div class="blogholder">
+                <div class="bimage"><img src="images/room2.jpg" alt="standard room"></div>
+                <div class="bwrite">
+                    <article>
+                        <h4><a href>How to Enjoy Your Stay</a></h4>
+                        <p class="p">Stay Tips</p>
+                        <p>Interesting stay can be met with an adequate planning...</p>
+                        <p>- August 16th, 2024 -</p>
+                    </article>
+                </div>
+            </div>
+
+            <div class="blogholder">
+                <div class="bimage"><img src="images/post2.jpg" alt="standard room"></div>
+                <div class="bwrite">
+                    <article>
+                        <h4><a href="#">continental dishes you can enjoy in Enugu hotels</a></h4>
+                        <p class="p">Recipe</p>
+                        <p>Welcome to enugu continentinal dishes recipe, you need to...</p>
+                        <p>- August 16th, 2024 -</p>
+                    </article>
+                </div>
+            </div>
+
+            <div class="blogholder">
+                <div class="bimage"><img src="images/post3.jpg" alt="standard room"></div>
+                <div class="bwrite">
+                    <article>
+                        <h4><a href="#"> landed properties opportunities in enugu metro</a></h4>
+                        <p class="p">Investment Tips</p>
+                        <p>checkout this investment opportunities available in enugu metro...</p>
+                        <p>- August 10th, 2024 -</p>
+                    </article>
+                </div>
+            </div>
+        </div>
+
+        <img src="images/IMG_0098.JPG">
+    </div>
+
+    <h3 class="trending">trending destinations</h3>
+    
+    <div class="tdholderone">
+        <p class="hugetext">Michael Okpara Square</p>
+        <p class="smalltext">Enugu State Government House Arena</p>
+        <img src="images/7.fw.png">
+        
+    </div>
+
+    <div class="sectionc">
+        <div class="tdholdertwo">
+            <p class="hugetext2">Ngwo Rainforest & Caves</p>
+            <p class="smalltext2">Enugu-Ngwo</p>
+            <img src="images/images (26).jpeg">
+            
+        </div>
+        <div class="tdholderthree">
+            <p class="hugetext2">New Federal Secretariate, Enugu</p>
+            <p class="smalltext2">Enugu</p>
+            <img src="images/MinistriesComplex-Nigeria-02.jpg">
+            
+        </div>
+    </div>
+
+    <div class="sectiond">
+        <div class="top6">
+            <p class="trending no-line">top 6 - enugu hotels</p>
+            <p class="subhead">Book a room in any of the hotels in Enugu with ease. Pay on arrival</p>
+        </div>
+
+        <div class="top6-holder">
+
+            <div class="topbest">
+                <div class="bimage"><img src="images/room1.jpeg"></div>
+                <a href="#"><p class="bold">Roban Hotels Enugu</p></a>
+                <p class="lighter">Ukwa Street, Independence Layout, Enugu</p>
+                <p class="price-edit">35,000 - 150,000 NGN</p>
+            </div>
+
+            <div class="topbest">
+                <div class="bimage"><img src="images/room2.jpg"></div>
+                <a href="#"><p class="bold">Max-B Int'l Hotel Enugu</p></a>
+                <p class="lighter">Paskan-Jake, Independence Layout, Enugu</p>
+                <p class="price-edit">95,000 - 150,000 NGN</p>
+            </div>
+
+            <div class="topbest">
+                <div class="bimage"><img src="images/blog1.jpg"></div>
+                <a href="#"><p class="bold">Toscana Villa & Resorts Enugu</p></a>
+                <p class="lighter">Brown & Brown, Government House Qrt, Independence Layout, Enugu</p>
+                <p class="price-edit">75,000 - 150,000 NGN</p>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+
+        <div class="pair">
+            <div class="foot1">
+                <div class="infos-head">Contact Us</div>
+                <p class="infos"><i class="fa-solid fa-location-dot"></i>Address here</p>
+                <p class="infos"><i class="fa-solid fa-mobile-screen"></i>+234 000 000 000 0</p>
+                <p class="infos"><i class="fa-regular fa-envelope"></i><a href="mailto:booking@apexpointhospitality.com">booking@apexpointhospitality.com</a></p>
+            </div>
+        
+            <div class="foot1">
+                <div class="infos-head">Menu Link</div>
+        
+                <p class="infos"><a href="index.html">Home</a> </p>
+                <p class="infos"><a href="#">About</a> </p>
+                <p class="infos"><a href="#">Our Hotels</a> </p>
+                <p class="infos"><a href="#">GAllery</a> </p>
+                <p class="infos"><a href="#">Blog</a> </p>
+                <p class="infos"><a href="#">Trending Destinations</a> </p>
+            </div>
+        </div>
+    
+        <div class="foot1 foot2">
+            <div class="infos-head">News Letter</div>
+            <form>
+                <input type="email" id="news-letter" placeholder="Enter your email" required>
+                <input type="submit" id="submit" value="SUBSCRIBE">
+            </form>
+            
+        </div>
+
+        <div class="socials">
+            <div class="socialtext">Follow our social media handles to get more info;</div>
+
+            <div class="socialicon"><a href="#"><i class="fa-brands fa-facebook"></i></a></i></div>
+            <div class="socialicon"><a href="#"><i class="fa-brands fa-square-x-twitter"></i></a></div>
+            <div class="socialicon"><a href="#"><i class="fa-brands fa-instagram"></i></a></div>
+            <div class="socialicon"><a href="#"><i class="fa-brands fa-linkedin"></i></a></div>
+        </div>
+    
+    </footer>
+    <footerr>
+    
+        <div class="end">
+            <p class="allright">A© 2024. ApexPointHospitality - All Rights Reserved.</p>
+            <p class="design">Designed by Emmanuel</p>
+        </div>
+    
+    </footerr>
+</body>
+
+    
+</html>
+
