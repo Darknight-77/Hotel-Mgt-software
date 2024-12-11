@@ -131,6 +131,9 @@ body{
     width: 100%;
     overflow: hidden;
 }
+.bimage img{
+  height: 200px;
+}
 
 .bimage img:hover{
     transform: scale(2.2);
@@ -140,7 +143,7 @@ body{
     background-color: white;
     margin-top: -25px;
     padding: 15px;
-    max-height: 145px;
+    max-height: fit-content;
 }
 
 .bwrite h4{
@@ -473,6 +476,9 @@ footer{
 
 
 @media(max-width: 971px){
+  body{
+    display: none;
+  }
     .menus{
         margin: 5px;
     }
@@ -820,29 +826,5 @@ footer{
     font-size: 11px;
     margin-bottom: 12px;
   }
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media(max-width: 702){
 
 }
